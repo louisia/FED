@@ -147,7 +147,10 @@
 - react定义的一种类似与XML的JS扩展语法：JS + XML
 - 本质是React.createElement(component,props,……children)方法的语法糖
 - 作用：用来简化创建虚拟DOM
-    - 写法：var ele=<h1>Hello JSX<h1>
+    - 写法：
+        ```
+            var ele=<h1>Hello JSX<h1>
+        ```
     - 注意1：不是字符串，也不是HTML/XML标签
     - 注意2：最终产生的就是一个JS对象
 - 标签名任意：可以是html标签或其他
