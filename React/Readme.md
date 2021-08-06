@@ -235,12 +235,15 @@
 - 当应用的js都以模块来编写，就是模块化的组件
 - 同理组件化
 
-
 # React面向组件编程
 ## 基本理解和使用
 - 安装react开发者工具：chrome extension
 ## 效果
 ### 函数式组件
+- React解析组件标签，找到MyComponent组件
+- 发现组件是使用函数定义的，随后调用该函数，将返回的虚拟DOM转为真实DOM，随后呈现在页面中
+    - 函数首字母必须大写
+    - 必须有返回值
 ```html
 <!DOCTYPE html>
 <html lang="en">
